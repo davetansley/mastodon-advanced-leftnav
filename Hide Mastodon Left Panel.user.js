@@ -28,7 +28,7 @@
            } else {
                elements[0].classList.add("collapsed-leftnav");
                elements[0].classList.remove("expanded-leftnav");
-           }
+           } 
         }
     };
 
@@ -46,7 +46,7 @@
     // Listen for the reply button being pressed
     document.addEventListener("click", function(e){
         const target = e.target;
-        if (target.classList.contains("fa-reply")){
+        if (target.classList.contains("fa-reply") || target.classList.contains("fa-reply-all")){
            var elements = document.getElementsByClassName("collapsed-leftnav");
            if (elements.length > 0) toggleStyle();
         }
