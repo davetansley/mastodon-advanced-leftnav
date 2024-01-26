@@ -9,6 +9,7 @@
 // @match        https://mstdn.social/*
 // @match        https://mastodonapp.uk/*
 // @match        https://sunny.garden/*
+// @match        https://mastodon.gamedev.place/*
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
 // @run-at       document-end
 // @grant        GM_addStyle
