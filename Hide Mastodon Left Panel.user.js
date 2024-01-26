@@ -43,6 +43,15 @@
         }
     };
 
+    // Listen for the reply button being pressed
+    document.addEventListener("click", function(e){
+        const target = e.target;
+        if (target.classList.contains("fa-reply")){
+           var elements = document.getElementsByClassName("collapsed-leftnav");
+           if (elements.length > 0) toggleStyle();
+        }
+    });
+
     addEvent();
 
     var css = [
