@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         Hide Mastodon Left Panel
-// @namespace    http://www.davetansley.com/mastodonleftpanel
+// @namespace    http://www.teamshave.com/mastodonleftpanel
 // @version      2024-01-26
 // @description  A script to shrink the left nav panel when using Mastodon's advanced interface. Click below the profile pic to shrink/expand.
 // @author       Dave Tansley
